@@ -192,6 +192,8 @@ fu.get("/recv", function (req, res) {
   });
 });
 
+
+
 fu.get("/send", function (req, res) {
   var id = qs.parse(url.parse(req.url).query).id;
   var text = qs.parse(url.parse(req.url).query).text;
